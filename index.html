@@ -2,140 +2,488 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>My Portfolio</title>
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Danielle Marie Igay | Illustrator & Graphic Designer</title>
+
+    <meta
+        name="description"
+        content="Portfolio of Danielle Marie Igay, Illustrator and Graphic Designer."
+    >
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <nav>
-            <h2>My Portfolio</h2>
+    <!-- =========================================
+         NAVIGATION
+    ========================================== -->
+
+    <header class="site-header">
+
+        <nav class="navbar">
+
+            <a href="#home" class="logo">
+                DANIELLE<br>
+                <span>MARIE IGAY</span>
+            </a>
 
             <div class="nav-links">
-                <a href="#home">Home</a>
+
+                <a href="#work">Work</a>
+
                 <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#projects">Projects</a>
+
+                <a href="#experience">Experience</a>
+
                 <a href="#contact">Contact</a>
+
             </div>
+
         </nav>
+
     </header>
 
 
     <main>
 
-        <!-- Home -->
+        <!-- =========================================
+             HERO
+        ========================================== -->
+
         <section id="home" class="hero">
 
-            <div>
-                <p class="hello">Hello, I'm</p>
+            <div class="hero-top">
 
-                <h1>Danielle Marie Igay</h1>
-
-                <h2>Junior Web Developer</h2>
-
-                <p>
-                    I build and maintain web applications using
-                    PHP, Laravel, Python, and Django.
+                <p class="eyebrow">
+                    Illustrator · Graphic Designer
                 </p>
 
-                <a href="#projects" class="button">
-                    View My Projects
-                </a>
+                <p class="hero-number">
+                    2026
+                </p>
+
             </div>
 
-        </section>
+            <div class="hero-title">
 
+                <h1>
+                    DANIELLE
+                    <span>MARIE IGAY</span>
+                </h1>
 
-        <!-- About -->
-        <section id="about">
+            </div>
 
-            <h2>About Me</h2>
+            <div class="hero-bottom">
 
-            <p>
-                I'm a Junior Web Developer interested in building
-                practical and user-friendly web applications.
-                I have experience working with PHP, Laravel,
-                Python, Django, JavaScript, and MySQL.
-            </p>
+                <p>
+                    Digital illustration, character design,
+                    graphic design and visual storytelling.
+                </p>
 
-        </section>
-
-
-        <!-- Skills -->
-        <section id="skills">
-
-            <h2>Skills</h2>
-
-            <div class="skills">
-
-                <div>HTML</div>
-                <div>CSS</div>
-                <div>JavaScript</div>
-                <div>PHP</div>
-                <div>Laravel</div>
-                <div>Python</div>
-                <div>Django</div>
-                <div>MySQL</div>
-                <div>Git / GitHub</div>
+                <a href="#work" class="scroll-link">
+                    View selected work
+                    <span>↓</span>
+                </a>
 
             </div>
 
         </section>
 
 
-        <!-- Projects -->
-        <section id="projects">
+        <!-- =========================================
+             SELECTED WORK
+        ========================================== -->
 
-            <h2>Projects</h2>
+        <section id="work" class="work-section">
 
-            <div class="projects">
+            <div class="section-heading">
 
-                <div class="project">
-
-                    <h3>Project One</h3>
-
-                    <p>
-                        A short description of your project goes here.
-                    </p>
-
-                    <a href="#" target="_blank">
-                        View Project
-                    </a>
-
+                <div class="section-number">
+                    01
                 </div>
 
-
-                <div class="project">
-
-                    <h3>Project Two</h3>
-
-                    <p>
-                        A short description of your project goes here.
+                <div>
+                    <p class="section-label">
+                        Selected Work
                     </p>
 
-                    <a href="#" target="_blank">
-                        View Project
-                    </a>
-
+                    <h2>
+                        Visual work
+                        <em>with personality.</em>
+                    </h2>
                 </div>
 
+            </div>
 
-                <div class="project">
 
-                    <h3>Project Three</h3>
+            <div class="work-intro">
 
-                    <p>
-                        A short description of your project goes here.
-                    </p>
+                <p>
+                    A collection of digital illustrations,
+                    character designs, graphic work and
+                    creative projects.
+                </p>
 
-                    <a href="#" target="_blank">
-                        View Project
-                    </a>
+                <p class="work-count">
+                    10 Works
+                </p>
+
+            </div>
+
+
+            <!-- ARTWORK GRID -->
+
+            <div class="art-gallery">
+
+
+                <!-- Artwork 01 -->
+
+                <article class="art-item art-large">
+
+                    <div class="art-image">
+
+                        <img
+                            src="images/1.png"
+                            alt="Digital artwork by Danielle Marie Igay"
+                        >
+
+                        <div class="art-info">
+
+                            <span>01</span>
+
+                            <div>
+                                <h3>Digital Artwork</h3>
+                                <p>Illustration</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Artwork 02 -->
+
+                <article class="art-item">
+
+                    <div class="art-image">
+
+                        <img
+                            src="images/2.png"
+                            alt="Artwork by Danielle Marie Igay"
+                        >
+
+                        <div class="art-info">
+
+                            <span>02</span>
+
+                            <div>
+                                <h3>Character Design</h3>
+                                <p>Digital Art</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Artwork 03 -->
+
+                <article class="art-item">
+
+                    <div class="art-image">
+
+                        <img
+                            src="images/3.png"
+                            alt="Artwork by Danielle Marie Igay"
+                        >
+
+                        <div class="art-info">
+
+                            <span>03</span>
+
+                            <div>
+                                <h3>Illustration</h3>
+                                <p>Digital Art</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Artwork 04 -->
+
+                <article class="art-item">
+
+                    <div class="art-image">
+
+                        <img
+                            src="images/4.png"
+                            alt="Artwork by Danielle Marie Igay"
+                        >
+
+                        <div class="art-info">
+
+                            <span>04</span>
+
+                            <div>
+                                <h3>Graphic Design</h3>
+                                <p>Visual Design</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Artwork 05 -->
+
+                <article class="art-item art-wide">
+
+                    <div class="art-image">
+
+                        <img
+                            src="images/5.png"
+                            alt="Artwork by Danielle Marie Igay"
+                        >
+
+                        <div class="art-info">
+
+                            <span>05</span>
+
+                            <div>
+                                <h3>Digital Illustration</h3>
+                                <p>Illustration</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Artwork 06 -->
+
+                <article class="art-item">
+
+                    <div class="art-image">
+
+                        <img
+                            src="images/6.png"
+                            alt="Artwork by Danielle Marie Igay"
+                        >
+
+                        <div class="art-info">
+
+                            <span>06</span>
+
+                            <div>
+                                <h3>Character Artwork</h3>
+                                <p>Character Design</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Artwork 07 -->
+
+                <article class="art-item art-wide">
+
+                    <div class="art-image">
+
+                        <img
+                            src="images/7.png"
+                            alt="Artwork by Danielle Marie Igay"
+                        >
+
+                        <div class="art-info">
+
+                            <span>07</span>
+
+                            <div>
+                                <h3>Illustration Project</h3>
+                                <p>Digital Art</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Artwork 08 -->
+
+                <article class="art-item">
+
+                    <div class="art-image">
+
+                        <img
+                            src="images/8.png"
+                            alt="Artwork by Danielle Marie Igay"
+                        >
+
+                        <div class="art-info">
+
+                            <span>08</span>
+
+                            <div>
+                                <h3>Graphic Artwork</h3>
+                                <p>Graphic Design</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Artwork 09 -->
+
+                <article class="art-item">
+
+                    <div class="art-image">
+
+                        <img
+                            src="images/9.png"
+                            alt="Artwork by Danielle Marie Igay"
+                        >
+
+                        <div class="art-info">
+
+                            <span>09</span>
+
+                            <div>
+                                <h3>Digital Illustration</h3>
+                                <p>Illustration</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Artwork 10 -->
+
+                <article class="art-item art-large">
+
+                    <div class="art-image">
+
+                        <img
+                            src="images/10.png"
+                            alt="Artwork by Danielle Marie Igay"
+                        >
+
+                        <div class="art-info">
+
+                            <span>10</span>
+
+                            <div>
+                                <h3>Final Artwork</h3>
+                                <p>Digital Art</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             ABOUT
+        ========================================== -->
+
+        <section id="about" class="about-section">
+
+            <div class="section-number">
+                02
+            </div>
+
+            <div class="about-content">
+
+                <p class="section-label">
+                    About Me
+                </p>
+
+                <h2>
+                    Creating visuals
+                    <em>that communicate.</em>
+                </h2>
+
+                <p class="about-text">
+                    Creative and detail-oriented Illustrator with
+                    strong skills in visual design, branding and
+                    Media Art programs such as Ibis Paint and
+                    Clip Studio Paint.
+                </p>
+
+                <p class="about-text">
+                    Passionate about creating impactful designs
+                    that communicate ideas clearly and effectively.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             SKILLS
+        ========================================== -->
+
+        <section class="skills-section">
+
+            <div class="section-number">
+                03
+            </div>
+
+            <div class="skills-content">
+
+                <p class="section-label">
+                    Skills
+                </p>
+
+                <div class="skills-list">
+
+                    <span>Visual Design</span>
+
+                    <span>Character Design</span>
+
+                    <span>Digital & Print Design</span>
+
+                    <span>UI / UX Design</span>
+
+                    <span>Typography & Layout</span>
+
+                    <span>Creative Software</span>
 
                 </div>
 
@@ -144,39 +492,317 @@
         </section>
 
 
-        <!-- Contact -->
-        <section id="contact">
+        <!-- =========================================
+             EXPERIENCE
+        ========================================== -->
 
-            <h2>Contact</h2>
+        <section id="experience" class="experience-section">
 
-            <p>
-                Interested in working together?
-            </p>
+            <div class="section-heading">
 
-            <p>
-                Email:
-                <a href="mailto:your@email.com">
-                    your@email.com
-                </a>
-            </p>
+                <div class="section-number">
+                    04
+                </div>
 
-            <p>
-                GitHub:
-                <a href="#" target="_blank">
-                    github.com/yourusername
-                </a>
-            </p>
+                <div>
+                    <p class="section-label">
+                        Experience
+                    </p>
+
+                    <h2>
+                        Creative & professional
+                        <em>experience.</em>
+                    </h2>
+                </div>
+
+            </div>
+
+
+            <div class="experience-list">
+
+
+                <!-- VGEN -->
+
+                <article class="experience-item">
+
+                    <div class="experience-date">
+                        NOV 2025 — PRESENT
+                    </div>
+
+                    <div class="experience-details">
+
+                        <h3>
+                            VGen Illustrator
+                        </h3>
+
+                        <p class="company">
+                            VGen, Co.
+                        </p>
+
+                        <ul>
+
+                            <li>
+                                Completed 90+ illustration projects
+                                for personal and commercial clients.
+                            </li>
+
+                            <li>
+                                Maintained a 95% client satisfaction rate.
+                            </li>
+
+                            <li>
+                                Created digital illustrations
+                                for Patreon projects.
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </article>
+
+
+                <!-- WEBTOON -->
+
+                <article class="experience-item">
+
+                    <div class="experience-date">
+                        APR 2024 — DEC 2025
+                    </div>
+
+                    <div class="experience-details">
+
+                        <h3>
+                            Lead Illustrator
+                        </h3>
+
+                        <p class="company">
+                            Webtoon, Inc.
+                        </p>
+
+                        <ul>
+
+                            <li>
+                                Worked on a Webtoon project
+                                for the Indonesian market.
+                            </li>
+
+                            <li>
+                                Contributed to the project from
+                                storyboarding through final output.
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </article>
+
+
+                <!-- ACCENTURE -->
+
+                <article class="experience-item">
+
+                    <div class="experience-date">
+                        2022 — 2024
+                    </div>
+
+                    <div class="experience-details">
+
+                        <h3>
+                            Associate Software Assistant
+                        </h3>
+
+                        <p class="company">
+                            Accenture, Inc.
+                        </p>
+
+                        <ul>
+
+                            <li>
+                                Worked as a Technical Salesforce Assistant.
+                            </li>
+
+                            <li>
+                                Handled two Salesforce-related projects.
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             EDUCATION
+        ========================================== -->
+
+        <section class="education-section">
+
+            <div class="section-number">
+                05
+            </div>
+
+            <div class="education-content">
+
+                <p class="section-label">
+                    Education
+                </p>
+
+                <h2>
+                    Bicol University
+                </h2>
+
+                <p>
+                    Bachelor of Science in Computer Engineering
+                </p>
+
+                <div class="education-meta">
+
+                    <span>2018 — 2022</span>
+
+                    <span>Latin Award · Cum Laude</span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             CONTACT
+        ========================================== -->
+
+        <section id="contact" class="contact-section">
+
+            <div class="contact-top">
+
+                <div class="section-number">
+                    06
+                </div>
+
+                <p class="section-label">
+                    Contact
+                </p>
+
+            </div>
+
+            <h2>
+                Let's create
+                <em>something.</em>
+            </h2>
+
+            <a
+                href="mailto:daniellemarieamaranto.igay@bicol-u.edu.ph"
+                class="email-link"
+            >
+                daniellemarieamaranto.igay@bicol-u.edu.ph
+            </a>
+
+
+            <div class="contact-details">
+
+                <div>
+                    <span>Phone</span>
+                    <p>+63 927 465 5122</p>
+                </div>
+
+                <div>
+                    <span>Location</span>
+                    <p>San Lorenzo, Tabaco City, Albay</p>
+                </div>
+
+                <div>
+                    <span>Language</span>
+                    <p>Advanced English</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             REFERENCES
+        ========================================== -->
+
+        <section class="references-section">
+
+            <div class="section-number">
+                07
+            </div>
+
+            <div class="references-content">
+
+                <p class="section-label">
+                    References
+                </p>
+
+
+                <div class="reference">
+
+                    <h3>
+                        Ma. Diana Amoranto
+                    </h3>
+
+                    <p>
+                        Marketing Officer
+                    </p>
+
+                    <p>
+                        Banco de Oro, Greenhills GH Mall Branch
+                    </p>
+
+                    <p>
+                        Tel. No. 88086525
+                    </p>
+
+                </div>
+
+
+                <div class="reference">
+
+                    <h3>
+                        Arlene Pabustan-Calleja, MD, MIH, FPPS
+                    </h3>
+
+                    <p>
+                        09177959458
+                    </p>
+
+                </div>
+
+            </div>
 
         </section>
 
     </main>
 
 
-    <footer>
+    <!-- =========================================
+         FOOTER
+    ========================================== -->
+
+    <footer class="site-footer">
 
         <p>
-            © 2026 Your Name. All rights reserved.
+            © 2026 Danielle Marie Igay
         </p>
+
+        <p>
+            Illustrator · Graphic Designer
+        </p>
+
+        <a href="#home">
+            Back to top ↑
+        </a>
 
     </footer>
 
